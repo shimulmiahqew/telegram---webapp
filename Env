@@ -1,0 +1,4 @@
+BOT_TOKEN = "7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"
+ADMIN_ID = satoshi exchange 
+DB_URL = mongodb://username:password@cluster
+API_KEY = your_api_key

@@ -16,10 +16,8 @@ bot = Bot(7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg
 @app.route('/')
 def home():
     return "✅ Bot is Live!"
-
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("🎁 Welcome to USDT Giveaway Bot!")
-
 def setup_dispatcher():
     dispatcher = Dispatcher(bot, None, workers=0)
     dispatcher.add_handler(CommandHandler("start", start))

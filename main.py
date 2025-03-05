@@ -9,7 +9,7 @@ load_dotenv()
 TOKEN = os.getenv("7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"
                  )
 
-app = Flask(Money Airdrop)
+app = Flask("Money Airdrop")
 bot = Bot("7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"
          )
 

@@ -3,7 +3,7 @@ import logging
 from telegram import Update, Bot, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Dispatcher, CommandHandler, MessageHandler, filters, CallbackContext
 
-app = Flask(free Airdrop)
+app = Flask("free Airdrop")
 
 # Replace with your Telegram bot token
 TOKEN = "7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"

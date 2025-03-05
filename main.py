@@ -8,7 +8,7 @@ app = Flask("free Airdrop")
 # Replace with your Telegram bot token
 TOKEN = "7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"
 
-bot=(7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg)
+bot=("7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg")
 # Dispatcher with no job queue (workers=0) because Flask will handle requests synchronously.
 dispatcher = Dispatcher(bot, None, workers=0)
 

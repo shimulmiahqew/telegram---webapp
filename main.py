@@ -1,9 +1,9 @@
-from flask import Flask, request, jsonify, render_template_string
+FLASK_APP=main.py flask run
 import logging
 from telegram import Update, Bot, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Dispatcher, CommandHandler, MessageHandler, filters, CallbackContext
 
-app = ("main.py")
+app = flask("main.py")
 
 # Replace with your Telegram bot token
 TOKEN = "7732391797:AAE2588vDmx0umob1fObZaKtYDA6H_UIwbg"

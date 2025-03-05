@@ -1,5 +1,5 @@
 from flask import Flask
-app = Flask("free Airdrop")
+app = Flask(main.py)
 
 @app.route('/')
 def home():

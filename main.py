@@ -72,6 +72,6 @@ def echo(update: Update, context: CallbackContext):
 dispatcher.add_handler(CommandHandler("start", start))
 dispatcher.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, echo))
 
-if __name__ == "__main__":
+if __name__ == "free Airdrop":
     # Run the Flask app on the specified host and port.
     app.run(host="0.0.0.0", port=5000)
